@@ -1,7 +1,7 @@
 import { IconProps } from "@/lib/types"
 import { SVGProps } from "react"
 
-const IconHome = ({
+const IconUser = ({
   size,
   color,
   className,
@@ -23,10 +23,10 @@ const IconHome = ({
         strokeLinejoin="round"
       />
       <g id="SVGRepo_iconCarrier">
+        <circle cx={12} cy={6} r={4} fill={color || "currentColor"} />
         <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M20.479 7.57827L15.093 3.12502C13.2787 1.62499 10.7213 1.62499 8.90703 3.12502L3.52097 7.57827C2.55059 8.38059 2 9.59706 2 10.8663V18.8739C2 20.5419 3.28643 22 5 22H7C8.65685 22 10 20.6569 10 19V15.6848C10 15.0044 10.5044 14.5587 11 14.5587H13C13.4956 14.5587 14 15.0044 14 15.6848V19C14 20.6569 15.3431 22 17 22H19C20.7136 22 22 20.5419 22 18.8739V10.8663C22 9.59706 21.4494 8.38059 20.479 7.57827Z"
+          opacity={0.5}
+          d="M20 17.5C20 19.9853 20 22 12 22C4 22 4 19.9853 4 17.5C4 15.0147 7.58172 13 12 13C16.4183 13 20 15.0147 20 17.5Z"
           fill={color || "currentColor"}
         />
       </g>
@@ -34,4 +34,4 @@ const IconHome = ({
   )
 }
 
-export default IconHome
+export default IconUser
